@@ -8,4 +8,4 @@ pandas
 scikit-learn
 keras-vggface
 Pillow
-libgl1-mesa-glx
+opencv-python-headless
