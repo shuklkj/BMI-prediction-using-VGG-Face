@@ -104,3 +104,49 @@ This project uses a pre-trained VGG16 model from the VGGFace library to predict 
 The model's performance can be assessed visually by the plotted graph showing actual versus predicted BMIs and quantitatively using the printed evaluation metrics.
 
 
+## BMI Prediction App with Streamlit
+
+A simple web-based application that predicts BMI (Body Mass Index) using facial images. The app offers two modes: capturing real-time images via a camera or uploading an existing image.
+
+### Features:
+
+1. Real-time Camera Capture: Allows users to capture their face using a camera in real time, automatically detects the face, and displays the predicted BMI on the frame.
+2. Upload Image: Users can upload an existing facial image to get a BMI prediction.
+
+### Setup and Installation:
+
+#### Prerequisites:
+1. Python 3.x
+2. pip
+   
+#### Dependencies:
+1. cv2 (OpenCV)
+2. numpy
+3. streamlit
+4. mtcnn
+5. tensorflow
+
+### How to Use:
+
+1. Launch the Streamlit app.
+2. On the sidebar, choose the desired option:
+  1. Capture from Camera: Click on this option to capture a real-time video feed. The app will detect your face and display the predicted BMI value in real-time.
+  2. Upload Image: Use this option to upload a facial image. Upon uploading, the app will display the predicted BMI.
+  3. For real-time capture, press 'q' to stop the camera feed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
